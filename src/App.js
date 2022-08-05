@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import './components/Banner';
+import Banner from './components/Banner';
+
 
 function App() {
-  return (
+ return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div><Banner head="Leverage Conversational Intelligence with NLP chatbots" para="Simplify the direct communication between staff and guests through NLP-powered interactions giving on-demand information in a natural and conversational way" /></div>
     </div>
   );
 }
